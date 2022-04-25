@@ -1,0 +1,58 @@
+/* Google Font = 'Inter' */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Variables */
+:root {
+  /* colors */
+  --clr-1: #538d4e;
+  --clr-2: #b59f3b;
+  --clr-3: #3a3a3c;
+  --clr-4: #121213;
+  --clr-5: #3f4041;
+  --clr-6: #f1f5f8;
+  /* fonts */
+  --ff-1: "Inter", sans-serif;
+
+  /* global */
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --fixed-width: 620px;  
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --max-width: 1170px;
+  --radius: 0.25rem;
+  --spacing: 0.1rem;
+  --transition: all 0.3s linear;
+}
+
+/* Global Styles */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--ff-1);
+  margin: 0;
+  background: var(--clr-4);
+  color: var(--clr-6);
+}
+h1 {
+  font-size: 1.2em;
+  padding: 20px 0;
+  margin: 0 0 30px 0;
+  color: var(--clr-5);
+}
+a {
+  text-decoration: none;
+  color: var(--clr-1);
+}
+/* Navbar */
+/* Header */
+.header {
+  border-bottom: 1px solid var(--clr-3);
+}
+/* Main */
+/* Footer */
